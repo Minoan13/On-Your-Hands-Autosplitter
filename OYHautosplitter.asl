@@ -1,4 +1,4 @@
-state("On_Your_Hands-Win64-Shipping", "Steam 5.9") //5.9 gamefinsihed stays true until new game I.E manually starting livesplit will split. Starting from New Game will not cause this issue. Load Remover does work for this version.
+state("On_Your_Hands-Win64-Shipping", "Steam 5.9") //5.9 gamefinsihed stays true until new game I.E manually starting livesplit will split. Starting from New Game will not cause this issue. Load Remover does not work for this version.
 {
     bool newGame: 0x6A4E6B8, 0x1B8, 0x34A;
     bool gameFinished: 0x6A4E6B8, 0x1B8,0x424;
